@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap');
+
+:root {
+    /*   color variables */
+    --clr-primary: #f0f7f8;
+    --clr-primary-hover: #f0f7f8;
+    --clr-primary-dark: #f0f7f8;
+    --clr-gray100: #f0f7f8;
+    --clr-gray200: #cfd8dc;
+  
+    /*   border radius */
+    --radius: 0.2rem;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Montserrat, sans-serif;
+    background: var(--clr-gray100);
+  }
+  
+  .nav-list {
+    background: #00BFFF;
+    box-shadow: 0px 0px 10px var(--clr-gray200);
+    padding: 1rem 0;
+    border-radius: var(--radius);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .nav-item {
+    list-style: none;
+    margin-right: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: white;
+    transition: all 200ms ease-in;
+  }
+  
+  .nav-item a:hover {
+    color: var(--clr-primary-dark);
+  }
+  
+  .nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+  }
+
+  section{
+    display: flex;
+    justify-content: center;
+  }
+  .welcome-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+  section span{
+    color: #00BFFF;
+  }
+h5{
+    font-size: 1.5rem;
+  }
+img{
+    width: 350px;
+  }
+.project-text{
+    position: absolute;
+    left: 75%;
+    top:0;
+}
+.image-div{
+    position: relative;
+}
+.my-proeject-btn {
+    background-color: #00BFFF; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.a-button{
+    color: #cfd8dc;
+    text-decoration: none;
+}
+.project-mini-text{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+hr{
+    width: 85px;
+    background-color: black;
+    margin-top: 8px;
+}
+.tech-heading{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row;
+}
+.tech-icons{
+    color: #00BFFF;
+}
