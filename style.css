@@ -163,17 +163,27 @@ hr{
   
   .card-header {
     text-align: center;
-    padding: 50px 10px;
+    /* padding: 50px 10px; */
     background: linear-gradient(to right, #00BFFF, #00BFFF);
     color: #fff;
     font-family: 'Roboto', sans-serif;
+
+  }
+
+  .card-header img{
+    height: 50%;
   }
   
   .card-body {
     padding: 30px 20px;
     text-align: center;
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+  }
+
+  .project-name{
+    display: flex;
+    justify-content: space-around;
   }
   
   .card-body .btn {
