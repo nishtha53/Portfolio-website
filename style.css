@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 :root {
     /*   color variables */
@@ -18,9 +20,9 @@
     box-sizing: border-box;
   }
   
-  body {
-    font-family: Montserrat, sans-serif;
-  }
+  /* body {
+    margin: 2rem;
+  } */
   
   .nav-list {
     background: #00BFFF;
@@ -55,19 +57,32 @@
   }
 
   section{
+    padding-bottom: 4rem;
+  }
+
+  .container{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .intro{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .intro-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    margin: 0;
   }
   .welcome-text{
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
   }
   section span{
     color: #00BFFF;
   }
-h5{
-    font-size: 1.5rem;
-  }
+
 img{
     width: 350px;
   }
@@ -97,43 +112,33 @@ img{
     text-decoration: none;
 }
 .project-mini-text{
-    font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: lighter;
 }
+
 hr{
     width: 85px;
     background-color: lightslategray;
-    margin-top: 5px;
 }
 .tech-heading{
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
     text-align: center;
+    margin-bottom: 2rem;
+    /* margin-top: 1rem; */
 }
 .flex-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
     gap: 3rem;
     flex-wrap: wrap;
 }
 .tech-icons{
     color: #00BFFF;
-}
-
-body {
-    margin: 2rem;
-    color: var(--clr-gray);
-  }
-  
-  body {
-    background: #fefefe;
-    font-family: sans-serif;
-  }
-  
+} 
   .container {
     width: 90%;
-    margin: 50px auto;
+    margin: 0px auto;
   }
   .heading {
     text-align: center;
@@ -161,12 +166,14 @@ body {
     padding: 50px 10px;
     background: linear-gradient(to right, #00BFFF, #00BFFF);
     color: #fff;
+    font-family: 'Roboto', sans-serif;
   }
   
   .card-body {
     padding: 30px 20px;
     text-align: center;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
   }
   
   .card-body .btn {
@@ -176,6 +183,7 @@ body {
     margin-top: 30px;
     text-decoration: none;
     padding: 10px 5px;
+    font-family: 'Roboto', sans-serif;
   }
   
   .card:hover {
