@@ -177,8 +177,8 @@ hr{
   .card-body {
     padding: 30px 20px;
     text-align: center;
-    font-size: 18px;
-    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
   }
 
   .project-name{
@@ -247,7 +247,7 @@ hr{
   margin-left: 30%;
 }
 
-.color-white{
+ .color-white{
   fill: white;
 }
 
@@ -256,4 +256,34 @@ hr{
   width: 100%;
   height: 18rem;
   object-fit: cover;
+}
+
+.color-white-edit{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.color-black-edit{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.my-proeject-btn-1{
+  background-color: #00BFFF; 
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    width: 8rem;
+    height: 3rem;
+}
+.btn{
+  text-align: center;
 }
