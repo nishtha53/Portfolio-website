@@ -287,3 +287,32 @@ hr{
 .btn{
   text-align: center;
 }
+#footer{
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #00BFFF;
+  padding: 5rem;
+}
+#footer ul{
+  list-style: none;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-inline-start: 0px;
+}
+#footer ul li{
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+#footer ul li i{
+  color: white;
+}
+.footer-text{
+  text-align: center;
+}
