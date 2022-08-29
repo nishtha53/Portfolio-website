@@ -1,29 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+  <title>My Portfolio</title>
 </head>
+
 <body>
-    <nav>
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="./index.html">
-                Nishtha Thakkar
+  <nav>
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="./index.html">
+          Nishtha Thakkar
+      </li>
+      <li class="nav-item">
+        <a href="./index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="./projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a href="./blogs.html">Blogs</a>
+      </li>
+    </ul>
+  </nav>
+  <section class="section-project">
+    <center><img src="./images/coding.svg" class="img-project"></center>
+    <center>
+      <h1 class="project-text-page">Check Out <span>My Projects</span></h1>
+    </center>
+  </section>
+  <section>
+    <!-- row 1 -->
+    <div class="row">
+      <!-- CARD 1 -->
+      <div class="card">
+        <div class="card-header">
+          <img src="./images/mark1.jpeg" class="card__img">
+          <a href="https://replit.com/@nishtha53/CLI-App-DO-you-know-me?embed=1&output=1" target="_blank"
+            class="color-white-edit"><i class="fa-solid fa-eye icon color-white top-right-1"></i> </a>
+          <a href="https://github.com/nishtha53/Mark0-CLI-App---do-you-know-me-" target="_blank"
+            class="color-white-edit"><i class="fa-solid fa-code icon color-white top-right-2"></i></a>
+        </div>
+        <div class="card-body">
+          <div class="project-name">
+            <p>Mark1 : Do you Know me?</p>
+            <p>1<sup>st</sup> July 2022</p>
+          </div>
+          <p>
+            This is CLI App made using nodejs. This app can be share to your friends and know how much they know us.
+            For design I have used Chalk Library.
+          </p><br />
+          <div>
+            <i class="fa-brands fa-js" class="tech-icons-1"></i>
+            <i class="fa-brands fa-css3-alt" class="tech-icons-1"></i>
+          </div>
+        </div>
+      </div>
+      <!-- CARD 2 -->
+      <div class="card">
+        <div class="card-header">
+          <img src="./images/mark2.png" class="card__img">
+          <a href="https://replit.com/@nishtha53/GK-Quiz?%E2%80%8Bembed=1&output=1" target="_blank"
+            class="color-white-edit"><i class="fa-solid fa-eye icon color-white top-right-1"></i> </a>
+          <a href="https://github.com/nishtha53/CLI-quiz-app" target="_blank" class="color-white-edit"><i
+              class="fa-solid fa-code icon color-white top-right-2"></i></a>
+        </div>
+        <div class="card-body">
+          <div class="project-name">
+            <p>Mark 2: GK Quiz</p>
+            <p>3<sup>rd</sup> July 2022</p>
+          </div>
+          <p>
+            This is GK quiz which consists of 10 questions and it is created using nodejs. It is CLI app to test your
+            GK knowledge. For design I have used Chalk Library.
+          </p>
+          <div><br />
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+        </div>
+      </div>
+      <!-- CARD 3 -->
+      <div class="card">
+        <div class="card-header">
+          <img src="./images/mark3.png" class="card__img">
+          <hr>
+          <a href="https://nishthaportfolio.netlify.app/" target="_blank" class="color-black-edit"><i
+              class="fa-solid fa-eye icon color-white top-right-1"></i> </a>
+          <a href="https://github.com/nishtha53/Portfolio-website" target="_blank" class="color-black-edit"><i
+              class="fa-solid fa-code icon color-white top-right-2"></i></a>
+        </div>
+        <div class="card-body">
+          <div class="project-name">
+            <p>Mark 3,4 & 5 Portfolio website</p>
+            <p>4<sup>th</sup> July 2022</p>
+          </div>
+          <p>
+            Profolio website is used to gather all my projects at one place and showcase at neog camp.
+            I have used html and vanilla css for creating this project please look into it.
+            I have also written 2 blogs in my website
+          </p>
+          <div><br />
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!-- row2 -->
+    <div class="row">
+      <!-- CARD 1 -->
+      <div class="card">
+        <div class="card-header">
+          <img src="./images/mark6.png" class="card__img">
+          <a href="https://bananatalk-js-app.netlify.app/" target="_blank"
+          class="color-black-edit"><i class="fa-solid fa-eye icon color-white top-right-1"></i> </a>
+          <a href="https://github.com/nishtha53/Banana-talk" target="_blank"
+          class="color-black-edit"><i class="fa-solid fa-code icon color-white top-right-2"></i></a>
+        </div>
+        <div class="card-body">
+          <div class="project-name">
+            <p>Mark 6:  Minion Translator</p>
+            <p>8<sup>th</sup> July 2022</p>
+          </div>
+          <p>
+            This app is created using html css and javascript I have used Minion Api from fun translactions and used fetch method to fetch the translated text.
+          </p><br />
+          <div>
+            <i class="fa-brands fa-js" class="tech-icons-1"></i>
+            <i class="fa-brands fa-css3-alt" class="tech-icons-1"></i>
+          </div>
+        </div>
+      </div>
+      <!-- CARD 2 -->
+      <div class="card">
+        <div class="card-header">
+          <img src="./images/mark7.png" class="card__img">
+          <a href="https://pirate-js.netlify.app/" target="_blank"
+            class="color-black-edit"><i class="fa-solid fa-eye icon color-white top-right-1"></i> </a>
+          <a href="https://github.com/nishtha53/pirate-app" target="_blank" class="color-black-edit"><i
+              class="fa-solid fa-code icon color-white top-right-2"></i></a>
+        </div>
+        <div class="card-body">
+          <div class="project-name">
+            <p>Mark 7: Pirate app</p>
+            <p>10<sup>th</sup> July 2022</p>
+          </div>
+          <p>
+            This app is created using html css and javascript I have used Pirate translation Api from fun translactions and used fetch method to fetch the translated text.
+          </p>
+          <div><br />
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+        </div>
+      </div>
+      <!-- CARD 3 -->
+      <div class="card">
+        <div class="card-header">
+          <img src="./images/mark8.png" class="card__img">
+          <a href="https://emoji-interpreterapp.netlify.app/" target="_blank" class="color-black-edit"><i
+              class="fa-solid fa-eye icon color-white top-right-1"></i> </a>
+          <a href="https://github.com/nishtha53/Emoji-translator" target="_blank" class="color-black-edit"><i
+              class="fa-solid fa-code icon color-white top-right-2"></i></a>
+        </div>
+        <div class="card-body">
+          <div class="project-name">
+            <p>Mark 8 : Know your emoji</p>
+            <p>12<sup>th</sup> July 2022</p>
+          </div>
+          <p>
+            This is emoji translator or also know as know your emoji which is created using html css and react. I have kept my favourite emoji with its meaning user can know its meaning by clicking on emoji or enter that emoji in input field.
+          </p>
+          <div><br />
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!-- row 3 -->
+    <div class="row">
+      <!-- CARD 1 -->
+      <div class="card">
+        <div class="card-header">
+          <img src="./images/mark9.png" class="card__img">
+          <a href="https://resources-of-html-css-js-react.vercel.app/" target="_blank"
+          class="color-black-edit"><i class="fa-solid fa-eye icon color-white top-right-1"></i> </a>
+          <a href="https://github.com/nishtha53/Resources-of-Html-css-js-react" target="_blank"
+          class="color-black-edit"><i class="fa-solid fa-code icon color-white top-right-2"></i></a>
+        </div>
+        <div class="card-body">
+          <div class="project-name">
+            <p>Mark 9:  Resources of Web Devlopment</p>
+            <p>13<sup>th</sup> July 2022</p>
+          </div>
+          <p>
+            This app is created using html css and react. In this web app there are best resoruces collected and also there are some project ideas given.
+          </p><br />
+          <div>
+            <i class="fa-brands fa-js" class="tech-icons-1"></i>
+            <i class="fa-brands fa-css3-alt" class="tech-icons-1"></i>
+          </div>
+        </div>
+      </div>
+      <!-- CARD 2 -->
+      <div class="card">
+        <div class="card-header">
+          <img src="./images/mark10.png" class="card__img">
+          <a href="https://cash-register-calculate.netlify.app/" target="_blank"
+            class="color-black-edit"><i class="fa-solid fa-eye icon color-white top-right-1"></i> </a>
+          <a href="https://github.com/nishtha53/Cash-register-vanillajs" target="_blank" class="color-black-edit"><i
+              class="fa-solid fa-code icon color-white top-right-2"></i></a>
+        </div>
+        <div class="card-body">
+          <div class="project-name">
+            <p>Mark 10: Cash register app</p>
+            <p>14<sup>th</sup> July 2022</p>
+          </div>
+          <p>
+            This api is created using html css and javascript It gives how much rupees is remainig to give and how much given.
+          </p>
+          <div><br />
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+        </div>
+      </div>
+      <!-- CARD 3 -->
+      <div class="card">
+        <div class="card-header">
+          <img src="./images/mark11.png" class="card__img">
+          <a href="https://nishtha-is-your-birthdaylucky.netlify.app/" target="_blank" class="color-black-edit"><i
+              class="fa-solid fa-eye icon color-white top-right-1"></i> </a>
+          <a href="https://github.com/nishtha53/Is-your-birthday-lucky-" target="_blank" class="color-black-edit"><i
+              class="fa-solid fa-code icon color-white top-right-2"></i></a>
+        </div>
+        <div class="card-body">
+          <div class="project-name">
+            <p>Mark 11 : Is your birthday lucky?</p>
+            <p>15<sup>th</sup> July 2022</p>
+          </div>
+          <p>
+            This app is created using html css and vanilla js. It will tell us whether birthday is lucky or not. First it will take user's birthdate and seond it will take user's lucky number and print whether lucky or not.
+          </p>
+          <div><br />
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!-- row 4 -->
+    <div class="row">
+      <!-- CARD 1 -->
+      <div class="card">
+        <div class="card-header">
+          <img src="./images/mark12.png" class="card__img"> 
+          <a href="https://mark13-fun-with-triangles.vercel.app/index.html" target="_blank"
+          class="color-white-edit"><i class="fa-solid fa-eye icon color-white top-right-1"></i> </a>
+          <a href="https://github.com/nishtha53/mark12-Fun-with-triangles" target="_blank"
+          class="color-white-edit"><i class="fa-solid fa-code icon color-white top-right-2"></i></a>
+        </div>
+        <div class="card-body">
+          <div class="project-name">
+            <p>Mark 12: Fun with Triangles</p>
+            <p>17<sup>th</sup> July 2022</p>
+          </div>
+          <p>
+            This app is created with html css js and to check how much knowledge we have about trianlges and formulas.
+          </p><br />
+          <div>
+            <i class="fa-brands fa-js" class="tech-icons-1"></i>
+            <i class="fa-brands fa-css3-alt" class="tech-icons-1"></i>
+          </div>
+        </div>
+      </div>
+      <!-- CARD 2 -->
+      <div class="card">
+        <div class="card-header">
+          <img src="./images/mark13.png" class="card__img">
+          <a href="https://palindrome-number.netlify.app/" target="_blank"
+            class="color-black-edit"><i class="fa-solid fa-eye icon color-white top-right-1"></i> </a>
+          <a href="https://github.com/nishtha53/mark-13-palindrome-number" target="_blank" class="color-black-edit"><i
+              class="fa-solid fa-code icon color-white top-right-2"></i></a>
+        </div>
+        <div class="card-body">
+          <div class="project-name">
+            <p>Mark 13: Palindrome Birthday</p>
+            <p>18<sup>th</sup> July 2022</p>
+          </div>
+          <p>
+            This app is created using Html css and javascript once we enter birthdate it give whether it is palindrome birthday or not and also give how much days it is far.
+          </p>
+          <div><br />
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+        </div>
+      </div>
+      <!-- CARD 3 -->
+      <div class="card">
+        <div class="card-header">
+          <img src="./images/mark14.png" class="card__img">
+          <a href="https://profit-loss-js-calculator.netlify.app/" target="_blank" class="color-black-edit"><i
+              class="fa-solid fa-eye icon color-white top-right-1"></i> </a>
+          <a href="https://github.com/nishtha53/mark-14-profitloss-calculator" target="_blank" class="color-black-edit"><i
+              class="fa-solid fa-code icon color-white top-right-2"></i></a>
+        </div>
+        <div class="card-body">
+          <div class="project-name">
+            <p>Mark 14 : Profit and loss calculator</p>
+            <p>20<sup>th</sup> July 2022</p>
+          </div>
+          <p>
+            This app is created using html css and vanilla js. It takes initial price from user then it takes quantity stocks means how much stock do user have and as a third input it takes current price of the stock. By this value user can know whether he/she is in profit or loss.
+          </p>
+          <div><br />
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-text">
+        <p>Made with ❤️ by Nishtha Thakkar</p>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a href="https://github.com/nishtha53" target="_blank"><i class="fa-brands fa-github"></i></a>
           </li>
-          <li class="nav-item">
-            <a href="./index.html">Home</a>
+
+          <li>
+            <a href="https://www.linkedin.com/in/nishtha-thakkar/" target="_blank"><i
+                class="fa-brands fa-linkedin"></i></a>
           </li>
-          <li class="nav-item">
-            <a href="./projects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="./blogs.html">Blogs</a>
+
+          <li>
+            <a href="https://twitter.com/thakkar_nishtha" target="_blank"><i class="fa-brands fa-twitter"></i></a>
           </li>
         </ul>
-      </nav>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>

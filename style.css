@@ -59,7 +59,6 @@
   section{
     padding-bottom: 4rem;
   }
-
   .container{
     display: flex;
     align-items: center;
@@ -82,7 +81,6 @@
   section span{
     color: #00BFFF;
   }
-
 img{
     width: 350px;
   }
@@ -159,19 +157,15 @@ hr{
     border: 1px solid #ccc;
     margin-bottom: 50px;
     transition: 0.3s;
-  }
-  
+    border-radius: 20px;
+  } 
   .card-header {
     text-align: center;
-    /* padding: 50px 10px; */
-    background: linear-gradient(to right, #00BFFF, #00BFFF);
-    color: #fff;
     font-family: 'Roboto', sans-serif;
-
   }
-
   .card-header img{
-    height: 50%;
+    height: fit-content;
+    border-radius: 20px;
   }
   
   .card-body {
@@ -316,4 +310,15 @@ hr{
 .footer-text{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+}
+
+.img-project{
+  padding: 2rem;
+  height: 40%;
+  width: 50%;
+}
+
+.project-text-page{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
 }
