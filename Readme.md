@@ -7,8 +7,8 @@
 1) Mark 1 - DO you know me quiz?
  - I Have created CLI app to know how much friends know me.
  - Technologies used: <br>
-         - Html 
-         - css
-         - nodejs
+         - Html <br>
+         - css <br>
+         - nodejs <br>
  -  [Demo](https://replit.com/@nishtha53/CLI-App-DO-you-know-me?embed=1&output=1)
 
